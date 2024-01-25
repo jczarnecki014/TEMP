@@ -1,0 +1,53 @@
+.Serach_User {
+    height: 100%;
+    background-color: #FFF5FF;
+}
+
+.Search_Header{
+    background-color: #555454;
+    padding: 2px;
+    min-height: 5%;
+}
+
+.Search_Header .Add_Patient_Button{
+    background-color: #3FA91A;
+    border: none;
+    width: 15%;
+    color:#fff;
+    text-align: center;
+}
+
+.Search_Result{
+    max-height: 90%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;    
+}
+
+.Patient_Block{
+    background-color: #EEECEC;
+    width: 100%;
+    min-height: 230px;
+    padding: 20px;
+    color:#5C5C5C;
+    border-radius: 20px;
+    text-align: center;
+}
+.Patient_Block .Icon {
+    background-color: #989898;
+    color: #fff;
+    width: 60%;
+    margin: auto;
+    padding: 10%;
+    border-radius: 20px;
+}
+
+.Patient_Block .Details {
+    width: 100%;
+    margin-top:10px;
+    text-align: center;
+}
+.Patient_Block .Details small {
+    display: block;
+}
+
+

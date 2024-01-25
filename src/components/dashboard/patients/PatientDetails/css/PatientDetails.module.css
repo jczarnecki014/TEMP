@@ -1,0 +1,101 @@
+
+.Patient_Details {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Patient_Details .Patient_Header{
+    background-color: #473947;
+    padding: 2px;
+    min-height: 5%;
+}
+
+.Patient_Details .Container{
+    display: flex;
+    justify-content: center;
+    min-height: 95%;
+    /* background-color: black; */
+}
+.Patient_Details .Container .Positioner {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: red; */
+}
+.Patient_Details .Positioner .Avatar_Section {
+    /* background-color: blue; */
+    height: 25%;
+    margin-top: 2%;
+    display: flex;
+}
+.Avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-right: 5%;
+    background-color: #989898;
+    border-radius: 20px;
+}
+.Main_Details {
+    width: 75%;
+    /* background-color: green; */
+}
+
+.Patient_Details .Contact_Details_Section{
+    height: 44%;
+    margin-top: 2%;
+}
+.Contact_Details_Section .Details{
+    border: 1px solid #C2C2C2;
+    border-radius: 12px;
+    background-color: #F3F3F3 ;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+}
+
+.Contact_Details_Section .Details .inlineBlock{
+    display: inline-block;
+    width: 50%;
+    padding: 0 20px 0 20px;
+}
+.Contact_Details_Section .Details #Zip_Code {
+    width: 20%;
+}
+.Contact_Details_Section .Details #Province {
+    width: 80%;
+}
+
+.Patient_Details .Children_Section{
+    height: 20%;
+    margin-top: 2%;
+}
+
+.Children_Section #children{
+    background-color: #FFECEC;
+    border: 1px solid #C2C2C2;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+    display: flex;
+    
+}
+.Children_Section .Children_Element{
+    background-color: #FCFCFC;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    margin-right: 20px;
+}
+
+.Children_Section .Children_Element .Icon{
+    background-color: #989898;
+    margin:auto;
+    width: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+}

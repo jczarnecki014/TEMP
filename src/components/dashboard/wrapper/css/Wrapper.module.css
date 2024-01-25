@@ -1,0 +1,11 @@
+.Main_Container{
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+.Main_Content{
+    height: 94%;
+}
+.LeftSide{
+    height: 100%;
+}
